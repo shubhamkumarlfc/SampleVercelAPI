@@ -1,31 +1,104 @@
 {
   "records": [
     {
-      "id": 1,
-      "title": "Ultrabook 14”",
-      "description": "Lightweight laptop for travel",
-      "category": "electronics",
-      "price": 1299,
-      "tags": ["laptop", "ultrabook", "portable"],
-      "createdAt": "2025-11-21T10:00:00.000Z"
+      "id": "1",
+      "title": "iPhone 14 Pro",
+      "description": "Latest Apple smartphone with advanced camera system",
+      "category": "Electronics",
+      "price": 999.99,
+      "brand": "Apple",
+      "stock": 50,
+      "tags": ["smartphone", "apple", "5g", "camera"]
     },
     {
-      "id": 2,
-      "title": "Gaming Laptop 15”",
-      "description": "High performance GPU",
-      "category": "electronics",
-      "price": 1899,
-      "tags": ["laptop", "gaming"],
-      "createdAt": "2025-12-05T09:30:00.000Z"
+      "id": "2",
+      "title": "Samsung Galaxy S23",
+      "description": "Premium Android smartphone with stunning display",
+      "category": "Electronics",
+      "price": 899.99,
+      "brand": "Samsung",
+      "stock": 45,
+      "tags": ["smartphone", "samsung", "android", "5g"]
     },
     {
-      "id": 3,
-      "title": "Noise Canceling Headphones",
-      "description": "Over-ear, long battery life",
-      "category": "audio",
-      "price": 299,
-      "tags": ["headphones", "audio"],
-      "createdAt": "2026-01-09T16:45:00.000Z"
+      "id": "3",
+      "title": "MacBook Pro 16",
+      "description": "Powerful laptop for professionals and creators",
+      "category": "Computers",
+      "price": 2499.99,
+      "brand": "Apple",
+      "stock": 20,
+      "tags": ["laptop", "apple", "macbook", "m2"]
+    },
+    {
+      "id": "4",
+      "title": "Dell XPS 15",
+      "description": "High-performance Windows laptop with premium build",
+      "category": "Computers",
+      "price": 1799.99,
+      "brand": "Dell",
+      "stock": 30,
+      "tags": ["laptop", "dell", "windows", "intel"]
+    },
+    {
+      "id": "5",
+      "title": "Sony WH-1000XM5",
+      "description": "Industry-leading noise-canceling wireless headphones",
+      "category": "Audio",
+      "price": 399.99,
+      "brand": "Sony",
+      "stock": 100,
+      "tags": ["headphones", "sony", "wireless", "noise-canceling"]
+    },
+    {
+      "id": "6",
+      "title": "Apple AirPods Pro",
+      "description": "Premium wireless earbuds with active noise cancellation",
+      "category": "Audio",
+      "price": 249.99,
+      "brand": "Apple",
+      "stock": 150,
+      "tags": ["earbuds", "apple", "wireless", "anc"]
+    },
+    {
+      "id": "7",
+      "title": "iPad Air",
+      "description": "Versatile tablet for work and entertainment",
+      "category": "Tablets",
+      "price": 599.99,
+      "brand": "Apple",
+      "stock": 60,
+      "tags": ["tablet", "apple", "ipad", "m1"]
+    },
+    {
+      "id": "8",
+      "title": "Samsung Galaxy Tab S8",
+      "description": "Premium Android tablet with S Pen included",
+      "category": "Tablets",
+      "price": 699.99,
+      "brand": "Samsung",
+      "stock": 40,
+      "tags": ["tablet", "samsung", "android", "s-pen"]
+    },
+    {
+      "id": "9",
+      "title": "LG OLED TV 55 inch",
+      "description": "Stunning 4K OLED television with perfect blacks",
+      "category": "TV",
+      "price": 1499.99,
+      "brand": "LG",
+      "stock": 25,
+      "tags": ["tv", "oled", "4k", "smart-tv"]
+    },
+    {
+      "id": "10",
+      "title": "Canon EOS R6",
+      "description": "Professional mirrorless camera for photography",
+      "category": "Cameras",
+      "price": 2499.99,
+      "brand": "Canon",
+      "stock": 15,
+      "tags": ["camera", "canon", "mirrorless", "full-frame"]
     }
   ]
 }
