@@ -1,15 +1,19 @@
 {
-  "name": "mock-search-api-vercel",
+  "name": "product-search-api",
   "version": "1.0.0",
-  "private": true,
-  "type": "commonjs",
+  "description": "REST API with POST search endpoint",
+  "main": "api/server.js",
   "scripts": {
-    "start": "node local.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
   },
   "dependencies": {
-    "json-server": "0.17.4"
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
