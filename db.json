@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "title": "Ultrabook 14”",
+      "description": "Lightweight laptop for travel",
+      "category": "electronics",
+      "price": 1299,
+      "tags": ["laptop", "ultrabook", "portable"],
+      "createdAt": "2025-11-21T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Laptop 15”",
+      "description": "High performance GPU",
+      "category": "electronics",
+      "price": 1899,
+      "tags": ["laptop", "gaming"],
+      "createdAt": "2025-12-05T09:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Noise Canceling Headphones",
+      "description": "Over-ear, long battery life",
+      "category": "audio",
+      "price": 299,
+      "tags": ["headphones", "audio"],
+      "createdAt": "2026-01-09T16:45:00.000Z"
+    }
+  ]
+}
