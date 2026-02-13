@@ -3,7 +3,8 @@
 
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // expects db.json at project root
+const data = require('../db.json');          // ✅ bundle db at build-time
+const router = jsonServer.router(data);      // ✅ in-memory; no writes
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
@@ -97,3 +98,4 @@ server.use(router);
 
 // Export Express app for Vercel
 module.exports = server;
+
